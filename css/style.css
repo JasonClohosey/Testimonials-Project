@@ -31,19 +31,25 @@ h1 {
 h5 {
     color: orange;
 }
-img {
+.image {
+    background: url("../images/photo-0.jpeg");
     height: 150px;
     width: 100px;
     position: absolute;
     top: -5rem;
     right: 9.25rem;
     border-radius: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 h4 {
     margin-top: 4rem;
 }
+
+
 .backBtn {
-    color: rgb(255, 255, 255, .3);
+    color: rgb(255, 165, 0, .5);
     font-size: 3rem;
     background-color: rgb(0, 0, 0, 0);
     position: absolute;
@@ -51,9 +57,11 @@ h4 {
     left: -3.5rem;
     height:50px;
     width: 50px;
+
 }
+
 .forwardBtn {
-    color: rgb(255, 255, 255, .3);
+    color: rgb(255, 165, 0, .5);
     font-size: 3rem;
     background-color: rgb(0, 0, 0, 0);
     position: absolute;
@@ -66,4 +74,8 @@ h4 {
     color: orange;
     font-size: 4rem;
     font-family: 'Roboto',sans-serif;
+}
+button:focus {
+    outline: none;
+    border: none;
 }
